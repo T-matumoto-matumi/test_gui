@@ -1,0 +1,11 @@
+[0.439s] Invoking command in '/home/robohan-ros2-5/test_gui/src': PYTHONPATH=/home/robohan-ros2-5/test_gui/build/move/prefix_override:/home/robohan-ros2-5/test_gui/install/move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/move build --build-base /home/robohan-ros2-5/test_gui/build/move/build install --record /home/robohan-ros2-5/test_gui/build/move/install.log --single-version-externally-managed install_data
+[0.587s] running egg_info
+[0.587s] creating ../build/move/move.egg-info
+[0.587s] writing ../build/move/move.egg-info/PKG-INFO
+[0.587s] writing dependency_links to ../build/move/move.egg-info/dependency_links.txt
+[0.587s] writing entry points to ../build/move/move.egg-info/entry_points.txt
+[0.587s] writing requirements to ../build/move/move.egg-info/requires.txt
+[0.587s] writing top-level names to ../build/move/move.egg-info/top_level.txt
+[0.587s] writing manifest file '../build/move/move.egg-info/SOURCES.txt'
+[0.607s] error: package directory 'move' does not exist
+[0.620s] Invoked command in '/home/robohan-ros2-5/test_gui/src' returned '1': PYTHONPATH=/home/robohan-ros2-5/test_gui/build/move/prefix_override:/home/robohan-ros2-5/test_gui/install/move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/move build --build-base /home/robohan-ros2-5/test_gui/build/move/build install --record /home/robohan-ros2-5/test_gui/build/move/install.log --single-version-externally-managed install_data

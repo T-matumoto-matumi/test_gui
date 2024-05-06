@@ -1,0 +1,9 @@
+float32 w1
+float32 w2
+float32 w3
+float32 w4
+float32 collect
+float32 sairo_in_1
+float32 sairo_in_2
+bool elevator
+bool emission

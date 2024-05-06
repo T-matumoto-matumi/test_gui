@@ -1,0 +1,267 @@
+[0.074s] Invoking command in '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces
+[0.157s] -- The C compiler identification is GNU 9.4.0
+[0.232s] -- The CXX compiler identification is GNU 9.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.390s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.390s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.390s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.390s]   the cmake_policy command to set the policy and suppress this warning.
+[0.390s] 
+[0.390s] Call Stack (most recent call first):
+[0.390s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.390s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.390s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.390s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.391s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.391s]   CMakeLists.txt:19 (find_package)
+[0.391s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.391s] [0m
+[0.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.540s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.637s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.657s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.740s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.740s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.740s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.740s]   the cmake_policy command to set the policy and suppress this warning.
+[0.740s] 
+[0.740s] Call Stack (most recent call first):
+[0.741s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.741s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[0.741s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.741s] [0m
+[0.752s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.831s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[0.908s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.908s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.908s]   the cmake_policy command to set the policy and suppress this warning.
+[0.908s] 
+[0.908s] Call Stack (most recent call first):
+[0.908s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.908s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.908s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[0.908s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.908s] [0m
+[0.920s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.922s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.923s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[0.923s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.923s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.923s]   the cmake_policy command to set the policy and suppress this warning.
+[0.923s] 
+[0.923s] Call Stack (most recent call first):
+[0.923s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.923s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.923s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.923s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[0.923s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.923s] [0m
+[0.935s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[0.935s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.935s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.935s]   the cmake_policy command to set the policy and suppress this warning.
+[0.935s] 
+[0.935s] Call Stack (most recent call first):
+[0.935s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.935s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.935s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.936s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[0.936s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.936s] [0m
+[0.940s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.940s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.940s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.940s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.953s] -- Found PythonExtra: .so  
+[0.975s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.003s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.007s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.008s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c>;/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c;/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_cpp;/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c;/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_cpp>;/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_py
+[1.008s] -- Configured cppcheck exclude dirs and/or files: 
+[1.011s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.011s] -- Configured cpplint exclude dirs and/or files: 
+[1.012s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.013s] -- Added test 'lint_cmake' to check CMake code style
+[1.014s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.018s] -- Added test 'uncrustify' to check C / C++ code style
+[1.018s] -- Configured uncrustify additional arguments: 
+[1.018s] -- Added test 'xmllint' to check XML markup files
+[1.021s] -- Configuring done (0.9s)
+[1.044s] -- Generating done (0.0s)
+[1.046s] -- Build files have been written to: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces
+[1.050s] Invoked command in '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces
+[1.052s] Invoking command in '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j8 -l8
+[1.064s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.067s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.193s] [  6%] Built target tutorial_interfaces__cpp
+[1.196s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.197s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.197s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.202s] [ 19%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[1.254s] [ 22%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.270s] [ 22%] Built target tutorial_interfaces__rosidl_generator_c
+[1.273s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.273s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.348s] [ 32%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[1.402s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.412s] [ 38%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[1.419s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.421s] [ 45%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[1.432s] [ 48%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.434s] [ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.442s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.445s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.583s] [ 54%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.602s] [ 54%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[1.610s] [ 58%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[1.628s] [ 58%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[1.688s] [ 61%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.768s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.771s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.890s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[2.075s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.119s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.124s] [ 70%] Built target tutorial_interfaces
+[2.130s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.454s] [ 74%] Built target tutorial_interfaces__py
+[2.459s] [ 77%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[2.543s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[2.567s] [ 80%] Built target tutorial_interfaces__python
+[2.573s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.573s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.573s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.620s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.621s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.621s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.635s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.635s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[2.653s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.656s] Invoked command in '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j8 -l8
+[2.685s] Invoking command in '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces
+[2.687s] -- Install configuration: ""
+[2.688s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[2.688s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces
+[2.688s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.688s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[2.689s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[2.689s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[2.690s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces
+[2.690s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.690s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.690s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.690s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[2.690s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.690s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.690s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces
+[2.690s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.690s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.690s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.690s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.691s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.691s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces
+[2.691s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.691s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[2.691s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.691s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[2.692s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[2.692s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces
+[2.692s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.692s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+[2.692s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.692s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.692s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp
+[2.692s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp
+[2.692s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp
+[2.692s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.hpp
+[2.692s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces
+[2.692s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[2.693s] -- Up-to-date: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.693s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[2.693s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[2.693s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[2.712s] Compiling '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[2.714s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg
+[2.714s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py
+[2.714s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c
+[2.714s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+[2.715s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.715s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.715s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.715s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.715s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.715s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.715s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[2.715s] -- Set non-toolchain portion of runtime path of "/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[2.716s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[2.717s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.718s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.719s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.719s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.719s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.719s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[2.719s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[2.719s] -- Installing: /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[2.720s] Invoked command in '/home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/robohan-ros2-5/colcon_ws/src/tutorial_interfaces/build/tutorial_interfaces

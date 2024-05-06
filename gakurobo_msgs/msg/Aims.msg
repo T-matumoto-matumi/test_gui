@@ -1,0 +1,3 @@
+float32 yaw
+float32 aim_arg_parallel
+float32 aim_arg_rotation

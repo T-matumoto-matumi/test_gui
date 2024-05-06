@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gakurobo_msgs/msg/SerchSairo.msg
+// generated code does not contain a copyright notice
+
+
+module gakurobo_msgs {
+  module msg {
+    struct SerchSairo {
+      int64 red;
+
+      int64 blue;
+    };
+  };
+};

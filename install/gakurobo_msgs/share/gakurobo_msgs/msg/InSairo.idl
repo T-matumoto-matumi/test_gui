@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gakurobo_msgs/msg/InSairo.msg
+// generated code does not contain a copyright notice
+
+
+module gakurobo_msgs {
+  module msg {
+    typedef int8 int8__3[3];
+    struct InSairo {
+      int8__3 sairo1;
+
+      int8__3 sairo2;
+
+      int8__3 sairo3;
+
+      int8__3 sairo4;
+
+      int8__3 sairo5;
+    };
+  };
+};

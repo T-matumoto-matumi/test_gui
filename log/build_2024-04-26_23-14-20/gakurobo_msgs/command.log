@@ -1,0 +1,4 @@
+Invoking command in '/home/robohan-ros2-5/test_gui/build/gakurobo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/robohan-ros2-5/test_gui/build/gakurobo_msgs -- -j8 -l8
+Invoked command in '/home/robohan-ros2-5/test_gui/build/gakurobo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/robohan-ros2-5/test_gui/build/gakurobo_msgs -- -j8 -l8
+Invoking command in '/home/robohan-ros2-5/test_gui/build/gakurobo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/robohan-ros2-5/test_gui/build/gakurobo_msgs
+Invoked command in '/home/robohan-ros2-5/test_gui/build/gakurobo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/robohan-ros2-5/test_gui/build/gakurobo_msgs

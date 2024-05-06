@@ -1,0 +1,1 @@
+Invoking command in '/home/robohan-ros2-5/test_gui/build/gakurobo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/robohan-ros2-5/test_gui/gakurobo_msgs -DCMAKE_INSTALL_PREFIX=/home/robohan-ros2-5/test_gui/install/gakurobo_msgs
